@@ -73,10 +73,10 @@ https://discord.com/
 
 **Screenshot(s):**
 
-[](images/Discord-image1.png)
-[](images/Discord-image2.png)
-[](images/Discord-image3.png)
+![](images/Discord-image1.png)
+![](images/Discord-image2.png)
+![](images/Discord-image3.png)
 
 
 **Breakdown-schets(en):**
-[](images/Breakdown-schets.png)
+![](images/Breakdown-schets.png)
