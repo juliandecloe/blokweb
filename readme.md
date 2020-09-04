@@ -58,7 +58,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** -kies uit zwart, rood óf blauw-
 
-Zwart
+Rood/Zwart
 
 
 **Je focus:** -kies uit responsive óf surface plane-
