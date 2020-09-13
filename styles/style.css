@@ -3,3 +3,121 @@
   box-sizing:border-box;  
 }
 
+@font-face {
+  font-family: Whitney-Book;
+  src: url(Whitney-Book.otf);
+}
+
+@font-face {
+	font-family: Whitney-Bold;
+	src: url(Whitney Bold.ttf);
+}
+
+body {
+	font-family: Whitney-Book;
+	padding: 0;
+	margin: 0;
+}
+
+/*----------HEADER----------*/
+
+header {
+	position: relative;
+	z-index: 0;
+	background: linear-gradient(#2A5EE8,#4E79F3);
+	padding: 1em;
+	margin: 0;
+	height: 62em;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0.45em;
+	padding-left: 0.5em;
+	margin: 0;
+}
+
+li {
+	justify-content: space-between;
+}
+
+header ul li:first-of-type img {
+	width: 7.75em;
+	margin-right: 10.2em;
+}
+
+header ul li:nth-of-type(2) img {
+	position: relative;
+	width: 2.5em;
+	top: -0.2em;
+}
+
+h1 {
+	position: absolute;
+	font-family: Whitney-Bold;
+	color: white;
+	font-size: 3em;
+	line-height: 1.2em;
+	margin-right: 1em;
+	top: 2.53em;
+	left: 0.5em;
+}
+
+header p {
+	position: absolute;
+	color: white;
+	line-height: 1.62em;
+	font-size: 20px;
+	margin-right: 1.2em;
+	top: 12.7em;
+	left: 1.2em;
+	z-index: 2;
+}
+
+header button {
+	position: absolute;
+	border: none;
+	border-radius: 30px;
+	padding: 0.5em 0.8em;
+	top: 27em;
+	left: 1.3em;
+	font-size: 20px;
+	outline: none;
+	z-index: 2;
+}
+
+header button img {
+	width: 1.2em;
+	height: 1.4em;
+	margin-right: 0.7em;
+}
+
+header img:nth-of-type(2) {
+	position: absolute;
+	width: 18.3em;
+	height: 13.3em;
+	object-fit: cover;
+	object-position: 0%;
+	top: 49.7em;
+	left: 13.2em;
+	z-index: 1;
+}
+
+header img:nth-of-type(3) {
+	position: absolute;
+	width: 48.3em;
+	top: 40em;
+	left: -25em;
+	z-index: 2;
+}
+
+.cloud {
+	position: absolute;
+	z-index: 1;
+	width: 112em;
+	top: 26.5em;
+	left: -57.7em;
+}
