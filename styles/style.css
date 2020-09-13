@@ -8,11 +8,6 @@
   src: url(Whitney-Book.otf);
 }
 
-@font-face {
-	font-family: Whitney-Bold;
-	src: url(Whitney Bold.ttf);
-}
-
 body {
 	font-family: Whitney-Book;
 	padding: 0;
@@ -57,9 +52,9 @@ header ul li:nth-of-type(2) img {
 
 h1 {
 	position: absolute;
-	font-family: Whitney-Bold;
+	font-weight: bold;
 	color: white;
-	font-size: 3em;
+	font-size: 48px;
 	line-height: 1.2em;
 	margin-right: 1em;
 	top: 2.53em;
@@ -120,4 +115,36 @@ header img:nth-of-type(3) {
 	width: 112em;
 	top: 26.5em;
 	left: -57.7em;
+}
+
+/*----------SECTIONS----------*/
+
+section {
+	color: #23272a;
+	padding: 5em 1.5em 10em 1.5em;
+}
+
+section:nth-of-type(2) {
+	background: #F6F6F6;
+}
+
+section:nth-of-type(4) {
+	background: #F6F6F6;
+}
+
+section img {
+	width: 20.45em;
+}
+
+h2 {
+	margin: 0.8em 0.5em 0em 0em;
+	font-weight: bold;
+	line-height: 1.22em;
+	font-size: 40px;
+}
+
+section p {
+	margin-top: 0.5em;
+	font-size: 20px;
+	line-height: 1.62em;
 }
