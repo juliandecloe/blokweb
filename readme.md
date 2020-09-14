@@ -38,11 +38,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik heb tot zover nog geen problemen gehad. Het enige waar ik tegenaan loop is dat het icoon in de button hoger is dan de tekst in de button. Ik heb dit nog niet kunnen fixen.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![](images/screen1.png)
+![](images/screen2.png)
+![](images/screen3.png)
 
 ### Agenda voor meeting
 
