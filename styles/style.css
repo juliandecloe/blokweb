@@ -3,6 +3,10 @@
   box-sizing:border-box;  
 }
 
+html {
+	overflow-x: hidden;
+}
+
 @font-face {
   font-family: Whitney-Book;
   src: url(Whitney-Book.otf);
@@ -12,6 +16,8 @@ body {
 	font-family: Whitney-Book;
 	padding: 0;
 	margin: 0;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 /*----------HEADER----------*/
@@ -27,16 +33,12 @@ header {
 	overflow-y: hidden;
 }
 
-ul {
+header ul {
 	display: flex;
 	list-style-type: none;
 	padding: 0.45em;
 	padding-left: 0.5em;
 	margin: 0;
-}
-
-li {
-	justify-content: space-between;
 }
 
 header ul li:first-of-type img {
@@ -76,18 +78,20 @@ header button {
 	position: absolute;
 	border: none;
 	border-radius: 30px;
-	padding: 0.5em 0.8em;
+	padding: 0.5em 1em 0.9em 1em;
 	top: 27em;
-	left: 1.3em;
+	left: 0.9em;
 	font-size: 20px;
 	outline: none;
 	z-index: 2;
 }
 
 header button img {
+	position: relative;
 	width: 1.2em;
 	height: 1.4em;
 	margin-right: 0.7em;
+	top: 0.3em;
 }
 
 header img:nth-of-type(2) {
@@ -117,18 +121,15 @@ header img:nth-of-type(3) {
 	left: -57.7em;
 }
 
-/*----------SECTIONS----------*/
+/*----------MAIN----------*/
 
 section {
+	margin: 0;
 	color: #23272a;
-	padding: 5em 1.5em 10em 1.5em;
+	padding: 3em 1.5em 5em 1.5em;
 }
 
-section:nth-of-type(2) {
-	background: #F6F6F6;
-}
-
-section:nth-of-type(4) {
+section:nth-of-type(2),section:nth-of-type(4) {
 	background: #F6F6F6;
 }
 
@@ -144,7 +145,94 @@ h2 {
 }
 
 section p {
+	margin: 0;
 	margin-top: 0.5em;
 	font-size: 20px;
 	line-height: 1.62em;
+}
+
+.wave {
+	position: absolute;
+	margin: 0;
+	height: 2em;
+	width: 100%;
+	animation: waves 10s infinite;
+}
+
+@keyframes waves {
+	0% {
+		height: 2em;
+	}
+	25% {
+		height: 2.2em;
+	}
+	50%	{
+		height: 2em;
+	}
+	75% {
+		height: 2.2em;
+	}
+	100% {
+		height: 2em;
+	}
+}
+
+.wave:first-of-type {
+	top: 106.2em;
+}
+
+.wave:nth-of-type(2) {
+	bottom: -106.2em;
+	transform: scaleY(-1);
+}
+
+.wave:nth-of-type(3) {
+	top: 185em;
+}
+
+/*----------FOOTER----------*/
+
+footer {
+	background: #23272A;
+	padding: 5em 1.5em;
+}
+
+h3 {
+	color: #7388DA;
+	font-size: 32px;
+}
+
+footer button {
+	background: none;
+	border: none;
+	color: white;
+	outline: none;
+	font-size: 14px;
+	padding: 0;
+	margin-bottom: 1.5em;
+}
+
+footer button img:first-of-type {
+	position: relative;
+	top: 0.09em;
+	width: 1.8em;
+	margin-right: 0.6em;
+}
+
+footer button img:nth-of-type(2) {
+	position: relative;
+	top: -0.4em;
+	margin-left: 0.5em;
+}
+
+footer ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer li img {
+	margin: 0;
+	margin-right: 1.5em;
 }
