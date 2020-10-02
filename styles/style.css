@@ -12,6 +12,11 @@ html {
   src: url(Whitney-Book.otf);
 }
 
+@font-face {
+	font-family: Whitney-Semibold;
+	src: url(Whitney-Semibold.ttf);
+}
+
 body {
 	font-family: Whitney-Book;
 	padding: 0;
@@ -25,73 +30,86 @@ body {
 header {
 	position: relative;
 	z-index: 0;
-	background: linear-gradient(#2A5EE8,#4E79F3);
-	padding: 1em;
+	background: linear-gradient(#2A5EE8,#2A5EE8,#4E79F3,#4E79F3);
+	padding: 0.23em 1.5em;
 	margin: 0;
 	height: 62em;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	max-width: 100%;
 }
 
 header ul {
 	display: flex;
+	justify-content: space-between;
 	list-style-type: none;
-	padding: 0.45em;
-	padding-left: 0.5em;
-	margin: 0;
+	padding: 0;
 }
 
 header ul li:first-of-type img {
-	width: 7.75em;
-	margin-right: 10.2em;
+	margin-top: 0.2em;
+	height: 2.14em;
+	width: 7.84em;
 }
 
-header ul li:nth-of-type(2) img {
-	position: relative;
-	width: 2.5em;
-	top: -0.2em;
+header ul li:nth-of-type(2) {
+	height: 2.5em;
+}
+
+header ul li:nth-of-type(3) {
+	display: none;
+}
+
+header ul li:nth-of-type(4) {
+	display: none;
+}
+
+header ul li:nth-of-type(5) {
+	display: none;
+}
+
+header ul li:nth-of-type(6) {
+	display: none;
+}
+
+header ul li:nth-of-type(7) {
+	display: none;
 }
 
 h1 {
-	position: absolute;
 	font-weight: bold;
 	color: white;
 	font-size: 48px;
 	line-height: 1.2em;
-	margin-right: 1em;
-	top: 2.53em;
-	left: 0.5em;
+	margin: 0;
+	margin-top: 1.95em;
 }
 
 header p {
-	position: absolute;
 	color: white;
 	line-height: 1.62em;
 	font-size: 20px;
-	margin-right: 1.2em;
-	top: 12.7em;
-	left: 1.2em;
-	z-index: 2;
+	margin: 0;
+	margin-top: 0.3em;
 }
 
 header button {
-	position: absolute;
+	background: white;
 	border: none;
 	border-radius: 30px;
-	padding: 0.5em 1em 0.9em 1em;
-	top: 27em;
-	left: 0.9em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	text-align: center;
+	margin-top: 1.2em;
 	font-size: 20px;
 	outline: none;
-	z-index: 2;
+	z-index: 999;
 }
 
 header button img {
 	position: relative;
 	width: 1.2em;
-	height: 1.4em;
-	margin-right: 0.7em;
-	top: 0.3em;
+	margin-right: 0.5em;
+	top: 0.2em;
 }
 
 header img:nth-of-type(2) {
@@ -115,10 +133,77 @@ header img:nth-of-type(3) {
 
 .cloud {
 	position: absolute;
-	z-index: 1;
+	z-index: -1;
 	width: 112em;
 	top: 26.5em;
 	left: -57.7em;
+}
+
+@media (min-width: 1025px) {
+
+header {
+	padding: 0.23em 2.5em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 56px;
+	margin-top: 2.88em;
+}
+
+header p {
+	text-align: center;
+	padding: 0 17%;
+	margin-top: 0.95em;
+	line-height: 1.639em;
+}
+
+header ul {
+	margin-right: 16.4em;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul a {
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Whitney-Semibold;
+}
+
+header ul li:first-of-type {
+	margin-right: 6.1em;
+}
+
+header ul li:nth-of-type(2) {
+	display: none;
+}
+
+header ul li:nth-of-type(3) {
+	display: inline;
+	margin-top: 0.7em;
+}
+
+header ul li:nth-of-type(4) {
+	display: inline;
+	margin-top: 0.7em;
+}
+
+header ul li:nth-of-type(5) {
+	display: inline;
+	margin-top: 0.7em;
+}
+
+header ul li:nth-of-type(6) {
+	display: inline;
+	margin-top: 0.7em;
+}
+
+header ul li:nth-of-type(7) {
+	display: inline;
+	margin-top: 0.7em;
+}
 }
 
 /*----------MAIN----------*/
