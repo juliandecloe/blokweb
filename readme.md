@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Julian de Cloe
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -24,13 +24,53 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Het menu is gefixed, maar ik loop erg achter. Heb nog geen tijd gehad om naar drag and drop te kijken. Hier zal ik in de vakantie naar moeten kijken. Ook wil ik voor pagina 1 nog wat kleine animaties toevoegen.
+
+**Screenshot(s):**
+
+![](images/screen1.png)
+![](images/screen2.png)
+![](images/screen3.png)
+
+### Agenda voor meeting
+
+Onderdelen die besproken moeten worden:
+- Problemen met positioneren en image plaatsen in button
+- Form elementen stylen
+- Hamburger menu op mobile naar volledig menu op desktop
+
+### Verslag van meeting
+
+
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+De footer is af en derest van de home pagina, behalve het menu. Volgende week ga ik aan de slag met het menu en draggable maken van een element.
+
+**Screenshot(s):**
+
+![](images/screen1.png)
+![](images/screen2.png)
+![](images/screen3.png)
+
+### Agenda voor meeting
+
+Onderdelen die besproken moeten worden:
+- Grid
+- Media queries
+- draggable functies
+- navbar die van content veranderd
+- Hoe te beginnen met de 2e pagina.
+
+### Verslag van meeting
+
+Gaat goed met het de site. Waar ik nog naar moet kijken is het drag and drop event om mogelijk toe te passen als surface plane onderdeel.
 
 
 
@@ -48,11 +88,12 @@ Ik heb tot zover nog geen problemen gehad. Het enige waar ik tegenaan loop is da
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- Vragen over responsive
+- Hoe je opacity omhoog laat gaan als element in beeld komt.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Als je scrollt moeten de onderdelen tevoorschijn komen. Javascript -> scroll & opacity omhoog met class.
 
 
 
