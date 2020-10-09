@@ -364,7 +364,7 @@ main section {
 	padding: 3em 1.5em 5em 1.5em;
 }
 
-main section:nth-of-type(3),main section:nth-of-type(5),main section:last-of-type {
+main section:nth-of-type(2),main section:nth-of-type(4),main section:last-of-type {
 	background: #F6F6F6;
 }
 
