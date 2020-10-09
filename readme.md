@@ -30,9 +30,9 @@ Het menu is gefixed, maar ik loop erg achter. Heb nog geen tijd gehad om naar dr
 
 **Screenshot(s):**
 
-![](images/screen1.png)
-![](images/screen2.png)
-![](images/screen3.png)
+[](images/screen1.png)
+[](images/screen2.png)
+[](images/screen3.png)
 
 ### Agenda voor meeting
 
@@ -82,9 +82,9 @@ Ik heb tot zover nog geen problemen gehad. Het enige waar ik tegenaan loop is da
 
 **Screenshot(s):**
 
-[](images/screen1.png)
-[](images/screen2.png)
-[](images/screen3.png)
+![](images/screen1.png)
+![](images/screen2.png)
+![](images/screen3.png)
 
 ### Agenda voor meeting
 
