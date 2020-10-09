@@ -55,9 +55,9 @@ De footer is af en derest van de home pagina, behalve het menu. Volgende week ga
 
 **Screenshot(s):**
 
-![](images/screen1.png)
-![](images/screen2.png)
-![](images/screen3.png)
+[](images/screen1.png)
+[](images/screen2.png)
+[](images/screen3.png)
 
 ### Agenda voor meeting
 
@@ -82,9 +82,9 @@ Ik heb tot zover nog geen problemen gehad. Het enige waar ik tegenaan loop is da
 
 **Screenshot(s):**
 
-![](images/screen1.png)
-![](images/screen2.png)
-![](images/screen3.png)
+[](images/screen1.png)
+[](images/screen2.png)
+[](images/screen3.png)
 
 ### Agenda voor meeting
 
