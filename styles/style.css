@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	font-family: Whitney-Book;
+	font-family: Whitney-Book, Helvetica, Sans-Serif;
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -179,7 +179,8 @@ header ul a {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	font-family: Whitney-Semibold;
+	font-family: Whitney-Semibold, Helvetica, Sans-Serif;
+	font-weight: 500;
 }
 
 header ul li:first-of-type {
@@ -265,8 +266,6 @@ header ul li:nth-of-type(7) {
 		transform: translateX(25em);
 	}
 }
-
-
 
 .darkbghide {
 	display: none;
@@ -451,13 +450,14 @@ main > img:nth-of-type(3) {
 footer {
 	background: #23272A;
 	padding: 6.85em 1.5em 3.9em 1.5em;
-	font-family: Whitney-Book;
+	font-family: Whitney-Book, Helvetica, Sans-Serif;
 }
 
 h4 {
 	color: #7388DA;
 	font-size: 32px;
-	font-family: Whitney-Semibold;
+	font-family: Whitney-Semibold, Helvetica, Sans-Serif;
+	font-weight: 500;
 	margin: 0;
 	margin-bottom: 30px;
 }
@@ -467,7 +467,7 @@ footer button {
 	border: none;
 	color: white;
 	outline: none;
-	font-family: Whitney-Book;
+	font-family: Whitney-Book, Helvetica, Sans-Serif;
 	font-size: 14px;
 	font-weight: 400;
 	padding: 0;
@@ -512,7 +512,7 @@ footer section {
 }
 
 footer h5 {
-	font-family: Whitney-Book;
+	font-family: Whitney-Book, Helvetica, Sans-Serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #7388DA;
