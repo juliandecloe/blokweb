@@ -7,25 +7,54 @@ html {
 	overflow-x: hidden;
 }
 
-@font-face {
-  font-family: Whitney-Book;
-  src: url(Whitney-Book.otf);
-}
-
-@font-face {
-	font-family: Whitney-Semibold;
-	src: url(Whitney-Semibold.ttf);
-}
-
 body {
-	font-family: Whitney-Book, Helvetica, Sans-Serif;
+	font-family: Whitney-Book, Whitney-Book, Helvetica, Sans-Serif;
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	height: 100%;
 	overflow-x: hidden;
 }
 
+@font-face {
+	font-family: Whitney-Book;
+	src: url(../basiswebsite/styles/Whitney-Book);
+}
+
 /*----------HEADER----------*/
+
+/*-BALLOONGUY-*/
+.balloon {
+	display: flex;
+	position: absolute;
+	z-index: 999;
+	left: 81%;
+	overflow: hidden;
+	white-space: wrap;
+    text-overflow: ellipsis;
+    width: 70px;
+	height: 761.5%;
+}
+
+.balloon img {
+	width: 70px;
+	height: 100px;
+	transform: translateY(5080%);
+}
+
+.balloonguy {
+	animation: balloon 50s linear forwards;
+	animation-delay: 5s;
+}
+
+@keyframes balloon {
+	0% {
+		transform: translateY(5080%);
+	}
+	100% {
+		transform: translateY(-200%);
+	}
+}
 
 header {
 	position: relative;
@@ -149,74 +178,6 @@ header img:nth-of-type(3) {
 	left: -57.7em;
 }
 
-@media (min-width: 1025px) {
-
-header {
-	padding: 0.23em 2.5em;
-}
-
-h1 {
-	text-align: center;
-	font-size: 56px;
-	margin-top: 2.88em;
-}
-
-header p {
-	text-align: center;
-	padding: 0 17%;
-	margin-top: 0.95em;
-	line-height: 1.639em;
-}
-
-header ul {
-	margin-right: 16.4em;
-	display: flex;
-	justify-content: space-between;
-}
-
-header ul a {
-	font-size: 16px;
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	font-family: Whitney-Semibold, Helvetica, Sans-Serif;
-	font-weight: 500;
-}
-
-header ul li:first-of-type {
-	margin-right: 6.1em;
-}
-
-header ul li:nth-of-type(2) {
-	display: none;
-}
-
-header ul li:nth-of-type(3) {
-	display: inline;
-	margin-top: 0.7em;
-}
-
-header ul li:nth-of-type(4) {
-	display: inline;
-	margin-top: 0.7em;
-}
-
-header ul li:nth-of-type(5) {
-	display: inline;
-	margin-top: 0.7em;
-}
-
-header ul li:nth-of-type(6) {
-	display: inline;
-	margin-top: 0.7em;
-}
-
-header ul li:nth-of-type(7) {
-	display: inline;
-	margin-top: 0.7em;
-}
-}
-
 /*----------MAIN----------*/
 
 /*-MENU SLIDE-*/
@@ -225,7 +186,7 @@ header ul li:nth-of-type(7) {
 	position: fixed;
 	background: white;
 	top: 0;
-	transform: translateX(25em);
+	transform: translateX(150%);
 	width: 88%;
 	height: 100%;
 	padding: 1.5em 3em 7.5em 1.5em;
@@ -246,10 +207,10 @@ header ul li:nth-of-type(7) {
 
 @keyframes menuslide {
 	0% {
-		transform: translateX(25em);
+		transform: translateX(150%);
 	}
 	100% {
-		transform: translateX(2.8em);
+		transform: translateX(14%);
 	}
 }
 
@@ -357,6 +318,10 @@ header ul li:nth-of-type(7) {
 
 /*-MENU GENERAL-*/
 
+main {
+	min-height: 100%;
+}
+
 main section {
 	margin: 0;
 	color: #23272a;
@@ -420,7 +385,7 @@ main > img {
 	margin: 0;
 	height: 2em;
 	width: 100%;
-	animation: waves 10s infinite;
+	animation: waves 10s linear infinite both;
 }
 
 @keyframes waves {
@@ -456,7 +421,7 @@ footer {
 h4 {
 	color: #7388DA;
 	font-size: 32px;
-	font-family: Whitney-Semibold, Helvetica, Sans-Serif;
+	font-family: Whitney-Book, Helvetica, Sans-Serif;
 	font-weight: 500;
 	margin: 0;
 	margin-bottom: 30px;
