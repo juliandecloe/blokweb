@@ -7,8 +7,26 @@ html {
 	overflow-x: hidden;
 }
 
+@font-face {
+	font-family: 'Whitney';
+	src: url(../fonts/Whitney-Book.otf);
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WhitneySemi';
+	src: url(../fonts/Whitney-Bold.ttf);
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'WhitneyBold';
+	src: url(../fonts/Whitney-Bold.ttf);
+	font-style: normal;
+}
+
 body {
-	font-family: Whitney-Book, Whitney-Book, Helvetica, Sans-Serif;
+	font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 	padding: 0;
 	margin: 0;
 	width: 100%;
@@ -16,10 +34,6 @@ body {
 	overflow-x: hidden;
 }
 
-@font-face {
-	font-family: Whitney-Book;
-	src: url(../basiswebsite/styles/Whitney-Book);
-}
 
 /*----------HEADER----------*/
 
@@ -109,7 +123,7 @@ header ul li:nth-of-type(7) {
 }
 
 h1 {
-	font-weight: bold;
+	font-family: 'WhitneyBold';
 	color: white;
 	font-size: 48px;
 	line-height: 1.2em;
@@ -338,7 +352,7 @@ main section img {
 
 h2 {
 	margin: 0.8em 0.5em 0em 0em;
-	font-weight: bold;
+	font-family: 'WhitneyBold';
 	line-height: 1.22em;
 	font-size: 40px;
 }
@@ -350,7 +364,8 @@ main section p {
 	line-height: 1.62em;
 }
 
-main section:last-of-type h3{
+h3{
+	font-family: 'WhitneySemi';
 	font-size: 32px;
 	line-height: 1.22em;
 	color: black;
@@ -415,13 +430,12 @@ main > img:nth-of-type(3) {
 footer {
 	background: #23272A;
 	padding: 6.85em 1.5em 3.9em 1.5em;
-	font-family: Whitney-Book, Helvetica, Sans-Serif;
 }
 
 h4 {
 	color: #7388DA;
 	font-size: 32px;
-	font-family: Whitney-Book, Helvetica, Sans-Serif;
+	font-family: 'WhitneySemi';
 	font-weight: 500;
 	margin: 0;
 	margin-bottom: 30px;
@@ -432,7 +446,6 @@ footer button {
 	border: none;
 	color: white;
 	outline: none;
-	font-family: Whitney-Book, Helvetica, Sans-Serif;
 	font-size: 14px;
 	font-weight: 400;
 	padding: 0;
@@ -477,7 +490,6 @@ footer section {
 }
 
 footer h5 {
-	font-family: Whitney-Book, Helvetica, Sans-Serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: #7388DA;
