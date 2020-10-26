@@ -38,25 +38,24 @@ body {
 /*----------HEADER----------*/
 
 /*-BALLOONGUY-*/
-.balloon {
+#home .balloon {
 	display: flex;
 	position: absolute;
-	z-index: 999;
+	z-index: 998;
 	left: 81%;
 	overflow: hidden;
 	white-space: wrap;
-    text-overflow: ellipsis;
     width: 70px;
-	height: 761.5%;
+	height: 742%;
 }
 
-.balloon img {
+#home .balloon img {
 	width: 70px;
 	height: 100px;
 	transform: translateY(5080%);
 }
 
-.balloonguy {
+#home .balloonguy {
 	animation: balloon 50s linear forwards;
 	animation-delay: 5s;
 }
@@ -70,11 +69,10 @@ body {
 	}
 }
 
-header {
+#home header {
 	position: relative;
-	z-index: 0;
 	background: linear-gradient(#2A5EE8,#2A5EE8,#4E79F3,#4E79F3);
-	padding: 0.23em 1.5em;
+	padding: 3.9em 1.5em;
 	margin: 0;
 	height: 62em;
 	overflow-x: hidden;
@@ -82,47 +80,34 @@ header {
 	max-width: 100%;
 }
 
-header ul {
+nav {
+	position: absolute;
+	min-width: 100%;
+	padding: 0.23em 1.5em;
+	z-index: 998;
+}
+
+nav ul {
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none;
 	padding: 0;
 }
 
-header ul li:first-of-type img {
-	margin-top: 0.2em;
+nav ul li:first-of-type img {
+	margin-top: 0.3em;
 	height: 2.14em;
 	width: 7.84em;
 }
 
-header ul li button {
+nav ul li button {
 	background: none;
 	border: none;
 	padding: 0;
 	outline: none;
 }
 
-header ul li:nth-of-type(3) {
-	display: none;
-}
-
-header ul li:nth-of-type(4) {
-	display: none;
-}
-
-header ul li:nth-of-type(5) {
-	display: none;
-}
-
-header ul li:nth-of-type(6) {
-	display: none;
-}
-
-header ul li:nth-of-type(7) {
-	display: none;
-}
-
-h1 {
+#home h1 {
 	font-family: 'WhitneyBold';
 	color: white;
 	font-size: 48px;
@@ -131,7 +116,7 @@ h1 {
 	margin-top: 1.9em;
 }
 
-header p {
+#home header p {
 	color: white;
 	line-height: 1.62em;
 	font-size: 20px;
@@ -140,12 +125,14 @@ header p {
 	padding: 0 0.03em;
 }
 
-header section {
+#home header section {
+	position: relative;
 	margin: 0;
 	padding: 0;
+	z-index: 1;
 }
 
-header section a {
+#home header section a {
 	display: flex;
 	color: black;
 	background: white;
@@ -160,12 +147,12 @@ header section a {
 	text-decoration: none;
 }
 
-header section a img {
+#home header section a img {
 	width: 1.2em;
 	margin-right: 0.5em;
 }
 
-header img:nth-of-type(2) {
+#home header img:nth-of-type(2) {
 	position: absolute;
 	width: 18.3em;
 	height: 13.3em;
@@ -176,7 +163,7 @@ header img:nth-of-type(2) {
 	z-index: 1;
 }
 
-header img:nth-of-type(3) {
+#home header img:nth-of-type(3) {
 	position: absolute;
 	width: 48.3em;
 	top: 40em;
@@ -186,7 +173,6 @@ header img:nth-of-type(3) {
 
 .cloud {
 	position: absolute;
-	z-index: -1;
 	width: 112em;
 	top: 26.5em;
 	left: -57.7em;
@@ -251,7 +237,7 @@ header img:nth-of-type(3) {
 	background: rgba(0, 0, 0, 0.3);
 	width: 100%;
 	height: 100%;
-	z-index: 998;
+	z-index: 999;
 }
 
 .menu ul:first-of-type li:first-of-type img {
@@ -332,51 +318,60 @@ header img:nth-of-type(3) {
 
 /*-MENU GENERAL-*/
 
-main {
+#home main {
 	min-height: 100%;
 }
 
-main section {
+#home main section {
 	margin: 0;
 	color: #23272a;
 	padding: 3em 1.5em 5em 1.5em;
+	transition: 1s;
 }
 
-main section:nth-of-type(2),main section:nth-of-type(4),main section:last-of-type {
+#home main section.sectionHidden {
+	opacity: 0;	
+}
+
+#home main > img.sectionHidden {
+	opacity: 0;
+}
+
+#home main section:nth-of-type(2),#home main section:nth-of-type(4),#home main section:last-of-type {
 	background: #F6F6F6;
 }
 
-main section img {
+#home main section img {
 	width: 20.45em;
 }
 
-h2 {
+#home h2 {
 	margin: 0.8em 0.5em 0em 0em;
 	font-family: 'WhitneyBold';
 	line-height: 1.22em;
 	font-size: 40px;
 }
 
-main section p {
+#home main section p {
 	margin: 0;
 	margin-top: 0.5em;
 	font-size: 20px;
 	line-height: 1.62em;
 }
 
-h3{
+#home h3 {
 	font-family: 'WhitneySemi';
 	font-size: 32px;
 	line-height: 1.22em;
 	color: black;
 }
 
-main section:last-of-type {
+#home main section:last-of-type {
 	padding: 0 1.5em 5em 1.5em;
 	margin: 0;
 }
 
-main section:last-of-type a {
+#home main section:last-of-type a {
 	display: flex;
 	background: #7388DA;
 	color: white;
@@ -390,17 +385,18 @@ main section:last-of-type a {
 	text-decoration: none;
 }
 
-main section:last-of-type a img {
+#home main section:last-of-type a img {
 	width: 1.2em;
 	margin-right: 0.5em;
 }
 
-main > img {
+#home main > img {
 	position: absolute;
 	margin: 0;
 	height: 2em;
 	width: 100%;
 	animation: waves 10s linear infinite both;
+	transition: 1s;
 }
 
 @keyframes waves {
@@ -412,20 +408,20 @@ main > img {
 	}
 }
 
-main > img:first-of-type {
-	top: 106.2em;
+#home main > img:first-of-type {
+	top: 103.3em;
 }
 
-main > img:nth-of-type(2) {
-	bottom: -106.2em;
+#home main > img:nth-of-type(2) {
+	bottom: -103.3em;
 	transform: scaleY(-1);
 }
 
-main > img:nth-of-type(3) {
-	top: 185em;
+#home main > img:nth-of-type(3) {
+	top: 182em;
 }
 
-/*----------FOOTER----------*/
+/*----------FOOTER PAGINA 1 + 2----------*/
 
 footer {
 	background: #23272A;
@@ -528,3 +524,262 @@ footer ul:last-of-type li:last-of-type a {
 }
 
 
+/*================= Nitro pagina ===================*/
+
+/*----------HEADER----------*/
+
+#nitro header {
+	position: relative;
+	background: linear-gradient(90deg,#b473f5,#e292aa);
+	padding: 3.9em 1.5em;
+	height: 62em;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	max-width: 100%;
+}
+
+#nitro header ul,#nitro main > section > article:last-of-type ul,#nitro main > section:last-of-type ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#nitro header ul li,#nitro main > section > article:last-of-type ul li,#nitro main > section:last-of-type ul li {
+	margin-top: 2em;
+	background: #23272A;
+	border-radius: 35px;
+	padding: 11px 10%;
+	text-align: center;
+	margin-top: 1.2em;
+	display: inline-block
+	width: 100%;
+}
+
+#nitro header a,#nitro main > section > article:last-of-type a,#nitro main > section:last-of-type a {	
+	color: white;
+	font-size: 20px;
+	z-index: 999;
+	text-decoration: none;
+}
+
+#nitro header ul li div,#nitro main > section > article:last-of-type ul li div,#nitro main > section:last-of-type ul li div {
+	display: inline;
+	background-color: #7289da;
+	border-radius: 25px;
+	font-size: 12px;
+	padding: 7px 10px;
+	margin-left: 10px;
+}
+
+#nitro header section img:first-of-type {
+	position: absolute;
+	width: 67%;
+	left: 44%;
+	top: 13.5%;
+}
+
+#nitro header section img:nth-of-type(2) {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+	width: 92%;
+	margin: 9.4em 0 1.7em 0.6em;
+}
+
+#nitro header section {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	line-height: 33px;
+}
+
+#nitro > svg {
+	position: absolute;
+	bottom: -20.5em;
+	height: 2em;
+	width: 100%;
+	animation: wave 10s linear infinite both;
+	transition: 1s;
+}
+
+@keyframes wave {
+	0% {
+		height: 2em;
+	}
+	100% {
+		height: 2.5em;
+	}
+}
+
+/*----------MAIN----------*/
+
+#nitro h1 {
+	margin: 2em 0.5em 0em 0em;
+	font-family: 'WhitneyBold';
+	line-height: 1.22em;
+	font-size: 40px;
+	text-align: center;
+}
+
+#nitro main > section > p {
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 56px;
+}
+
+#nitro main article {
+	text-align: center;
+	padding: 32px;
+	margin: 0 24px 20px 24px;
+	border-radius: 8px;
+	color: white;
+}
+
+#nitro h2 {
+	font-size: 24px;
+	margin: 0;
+}
+
+#nitro main > section article p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 12px;
+}
+
+#nitro main > section article:first-of-type {
+	background: linear-gradient(142.53deg,#00a295,#26e8f4 98.75%),#3dcda7;
+	transform: translateX(500px);
+}
+
+#nitro main > section article:nth-of-type(2) {
+	background: linear-gradient(321.82deg,#21f2ff,#4181ff 59.22%,#4475ff 98.02%),#7196ff;
+	transform: translateX(-500px);
+}
+
+#nitro main > section article:nth-of-type(3) {
+	background: linear-gradient(138.46deg,#3e70ff 1.48%,#9a98ff 98.75%),#ff73fa;
+	transform: translateX(500px);
+}
+
+#nitro main > section article:nth-of-type(4) {
+	background: linear-gradient(141.85deg,#7e7bff,#ff73fa);
+	transform: translateX(-500px);
+}
+
+#nitro main > section article:nth-of-type(5) {
+	background: linear-gradient(141.48deg,#f837ee 1.35%,#ffcd4b);
+	transform: translateX(500px);
+}
+
+#nitro main > section article:nth-of-type(6) {
+	background: linear-gradient(321.73deg,#ffcd4b -1.09%,#ee6315 100.65%);
+	transform: translateX(-500px);
+}
+
+#nitro main > section article:nth-of-type(5) img,#nitro main > section article:nth-of-type(6) img {
+	width: 177px;
+}
+
+#nitro main {
+	position: relative;
+}
+
+#nitro main > svg {
+	position: absolute;
+	bottom: 26em;
+	height: 2em;
+	width: 100%;
+	animation: wave2 10s linear infinite both;
+	transition: 1s;
+}
+
+@keyframes wave2 {
+	0% {
+		height: 2em;
+	}
+	100% {
+		height: 2.5em;
+	}
+}
+
+#nitro main > section article:last-of-type {
+	padding: 20px 24px 70px 24px;
+	margin: 0;
+}
+
+.doit {
+	overflow: hidden;
+	white-space: wrap;
+}
+
+#nitro h3 {
+	color: black;
+	font-size: 40px;
+	margin: 0;
+	margin-bottom: 50px;
+	animation: doit 3.2s linear infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes doit {
+	0%	{
+		transform: translateX(0px);
+	}
+	100%	{
+		transform: translateX(-321px);
+	}
+}
+
+#nitro main > section:nth-of-type(2) {
+	position: relative;
+	background: #7388DA;
+	padding: 24px;
+	color: white;
+	margin-bottom: 260px;
+}
+
+#nitro main > section:nth-of-type(2) img:first-of-type {
+	width: 200px;
+}
+
+#nitro main > section:nth-of-type(2) p {
+	text-align: left;
+	font-size: 20px;
+	padding: 24px 20px 0 0;
+	line-height: 34px;
+}
+
+#nitro main > section:nth-of-type(2) video {
+	position: absolute;
+	top: 393px;
+	left: 0;
+	width: 102%;
+}
+
+.articlemoveright {
+	animation: articleR 2s ease forwards;
+}
+
+@keyframes articleR {
+	0% {
+		transform: translateX(500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.articlemoveleft {
+	animation: articleL 2s ease forwards;
+}
+
+@keyframes articleL {
+	0% {
+		transform: translateX(-500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}

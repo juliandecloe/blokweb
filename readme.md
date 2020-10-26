@@ -6,19 +6,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Alle afbeeldingen zijn afkomstig van https://discord.com/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik heb voor een tijdje gekeken naar een image draggable maken, dit ging mij helaas nog het verstand te boven. Echter had ik er gelukkig toch geen nut voor gevonden. Ik heb mijn tweede pagina afgemaakt met wat leuke toevoegingen. Ik had ook een probleem met een font implementeren, maar dit heb ik na wat snelle onderzoek op internet opgelost. 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![](images/header1.png)
+![](images/header2.png)
+![](images/menu.png)
+![](images/nitro.png)
 
 
 
@@ -30,9 +31,8 @@ Het menu is gefixed, maar ik loop erg achter. Heb nog geen tijd gehad om naar dr
 
 **Screenshot(s):**
 
-[](images/screen1.png)
-[](images/screen2.png)
-[](images/screen3.png)
+![](images/progress.png)
+![](images/menu.png)
 
 ### Agenda voor meeting
 
@@ -42,7 +42,7 @@ Onderdelen die besproken moeten worden:
 - Hamburger menu op mobile naar volledig menu op desktop
 
 ### Verslag van meeting
-
+We hebben nog even gekeken naar mijn menu. Het was al af en zag er goed uit, maar ik kreeg wat extra mogelijkheden uitgelegd. Daarnaast moet ik nog steeds kijken naar de opacity van sections verhogen wanneer ze in beeld komen. 
 
 
 
@@ -55,9 +55,8 @@ De footer is af en derest van de home pagina, behalve het menu. Volgende week ga
 
 **Screenshot(s):**
 
-[](images/screen1.png)
-[](images/screen2.png)
-[](images/screen3.png)
+![](images/header1.png)
+![](images/footer.png)
 
 ### Agenda voor meeting
 
@@ -82,9 +81,8 @@ Ik heb tot zover nog geen problemen gehad. Het enige waar ik tegenaan loop is da
 
 **Screenshot(s):**
 
-![](images/screen1.png)
-![](images/screen2.png)
-![](images/screen3.png)
+![](images/week1.png)
+
 
 ### Agenda voor meeting
 
