@@ -1,7 +1,7 @@
 # Procesverslag
 **Auteur:** Julian de Cloe
 
-##WEBSITE IS VOOR IPHONE 6/7/8 FORMAAT!
+WEBSITE IS VOOR IPHONE 6/7/8 FORMAAT!
 
 ## Bronnenlijst
 1. Alle afbeeldingen zijn afkomstig van https://discord.com/
